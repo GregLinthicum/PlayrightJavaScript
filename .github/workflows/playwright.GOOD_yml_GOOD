@@ -27,5 +27,5 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-    - name: Run a one-line scriptB
+    - name: Run a one-line script
       run: echo "GregLinthicum/PlayrightJavaScript playwright.yml"
