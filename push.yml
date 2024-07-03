@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -16,5 +16,6 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world!  YAML HAD RUN"
 
-      - # name: Run a script from the repository
+      - # name: Run a script from the repository    
         # run: ./your-script.sh
+
