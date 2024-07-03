@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run a one-line script
-      run: echo "GregLinthicum/PlayrightJavaScript step 1 playwright.yml"
+      run: echo "GregLinthicum/PlayrightJavaScript :: step 1 playwright.yml"
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
@@ -28,4 +28,4 @@ jobs:
         path: playwright-report/
         retention-days: 30
     - name: Run a one-line scriptB
-      run: echo "GregLinthicum/PlayrightJavaScript step 8 playwright.yml"
+      run: echo "GregLinthicum/PlayrightJavaScript :: step 8 playwright.yml"
