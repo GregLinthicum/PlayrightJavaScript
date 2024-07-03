@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run a one-line script
-      run: echo "GregLinthicum/PlayrightJavaScript :: step #1 in: C:\Playright\JavaScript\.github\workflows\playwright.yml"    
+      run: echo "GregLinthicum/PlayrightJavaScript :: step #1 in: C:\Playright\JavaScript\.github\workflows\playwright.yml"
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
