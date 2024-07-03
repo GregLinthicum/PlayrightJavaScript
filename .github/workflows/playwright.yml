@@ -13,6 +13,8 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
+    - name: Run a one-line script
+      run: echo "GregLinthicum/PlayrightJavaScript :: step #3 in: C:\Playright\JavaScript\.github\workflows\playwright.yml"
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Browsers
@@ -26,4 +28,4 @@ jobs:
         path: playwright-report/
         retention-days: 30
     - name: Run a one-line script
-      run: echo "Hello, world!  YAML HAD RUN in C:\Playright\JavaScript\.github\workflows\playwright.yml"
+      run: echo "GregLinthicum/PlayrightJavaScript :: step #8 in: C:\Playright\JavaScript\.github\workflows\playwright.yml"
