@@ -9,6 +9,8 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
+    - name: Run a one-line script
+      run: echo "GregLinthicum/PlayrightJavaScript playwright.yml"
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
